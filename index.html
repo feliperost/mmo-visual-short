@@ -13,7 +13,7 @@
                 <img src="logo.png" alt="Game Logo">
             </div>
             <ul>
-                <li><a href="#">My Account</a></li>
+                <li><a href="#" id="my-account-link">My Account</a></li>
                 <li><a href="#">Download</a></li>
                 <li><a href="#">Latest News</a></li>
                 <li><a href="#">News Archive</a></li>
@@ -25,9 +25,10 @@
                 <li><a href="#">Support</a></li>
             </ul>
         </div>
+        
         <div class="content">
             <div class="header">
-                <h1>Welcome to the Visual Novel MMORPG</h1>
+                <h1>Welcome to NAME-OF-THE-GAME</h1>
                 <div id="timer">Next effect in: 120s</div>
             </div>
             <div class="news-ticker">
@@ -48,13 +49,28 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
             </div>
         </div>
+        
         <div class="right-sidebar">
             <div class="additional-content">
                 <h2>Right Sidebar Content</h2>
                 <p>Additional content will be added here later.</p>
             </div>
         </div>
+        
+        <div id="login-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="close-popup">&times;</span>
+                <h2>Login</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br>
+                <button type="submit">Login</button>
+            </div>
+        </div>
+
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

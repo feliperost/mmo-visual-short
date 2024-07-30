@@ -1,11 +1,27 @@
+document.getElementById('my-account-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('login-popup').style.display = 'flex';
+});
+
+document.getElementById('close-popup').addEventListener('click', function() {
+    document.getElementById('login-popup').style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === document.getElementById('login-popup')) {
+        document.getElementById('login-popup').style.display = 'none';
+    }
+});
+
+
 document.addEventListener("DOMContentLoaded", function() {
     let timer = 120;
     const timerElement = document.getElementById('timer');
-
+// timer to monitor the effects during development
     function updateTimer() {
         timer--;
         timerElement.textContent = `Next effect in: ${timer}s`;
-
+        
         if (timer <= 0) {
             triggerRandomEffect();
             timer = 120; // Reset the timer
