@@ -32,7 +32,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const effects = [
             scrambleText,
             flashNegative,
-            moveContent
+            moveContent,
+            modifyMarquee
         ];
         const randomEffect = effects[Math.floor(Math.random() * effects.length)];
         randomEffect();
@@ -62,6 +63,18 @@ document.addEventListener("DOMContentLoaded", function() {
         content.style.transform = 'translate(10px, 10px)';
         setTimeout(() => {
             content.style.transform = 'translate(0, 0)';
+        }, 2000);
+    }
+
+    function modifyMarquee() {
+        const marquee = document.querySelector('marquee');
+        const originalDirection = marquee.getAttribute('direction') || 'left';
+        
+        // Toggle direction
+        marquee.setAttribute('direction', originalDirection === 'left' ? 'up' : 'down');
+        
+        setTimeout(() => {
+            marquee.setAttribute('direction', originalDirection);
         }, 2000);
     }
 
