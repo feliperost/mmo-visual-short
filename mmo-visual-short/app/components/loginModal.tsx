@@ -17,3 +17,5 @@ export default function loginModal() {
     </>
 )
 }
+// avaliar instalar e aplicar:
+// https://mui.com/material-ui/react-modal/
