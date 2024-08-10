@@ -4,7 +4,7 @@ export default function Sidebar() {
     const sidebarItems = [
         {
             title: 'My Account',
-            link: '/about'
+            link: '/account'
         },
         {
             title: 'Download',
