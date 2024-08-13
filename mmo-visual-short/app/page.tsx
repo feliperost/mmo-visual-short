@@ -1,5 +1,7 @@
 import Sidebar from "./components/sidebar";
 import RightSidebar from "./components/rightSidebar";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,8 +23,23 @@ export default function Home() {
           <div className="news">
             <h2>Latest News</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, illo fuga iste sint perspiciatis asperiores, fugiat nam alias nobis deleniti cum reiciendis nulla ullam ut, exercitationem nisi odio ea maiores.</p>
+            <Link href={`/news`}>Go to the Deadwell Tribune!</Link>
           </div>
-          <p>Homepage content</p>
+          
+          <div className="screenshots">
+                <h2>Game Screenshots</h2>
+                <p>2 or 3 images. short text promoting the game.</p>
+                {/* <Image src="screenshot1.jpg" alt="Screenshot 1"/>
+                <Image src="screenshot2.jpg" alt="Screenshot 2"/> */}
+                <Link href={`/about`}>Read more about Deadwell</Link>
+            </div>
+            <div className="community-posts">
+                <h2>Highlighted Community Post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
+                <Link href={`/community`}>Go to the Deadwell Forums!</Link>
+            </div>
+          
+
         </div>
         
       <RightSidebar/>
