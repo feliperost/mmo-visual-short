@@ -68,6 +68,24 @@
   }
 }
 
+@keyframes color-change {
+  0% {
+    background-color: #f87171; /* Red */
+  }
+  33% {
+    background-color: #60a5fa; /* Blue */
+  }
+  66% {
+    background-color: #34d399; /* Green */
+  }
+  100% {
+    background-color: #f87171; /* Red */
+  }
+}
+
+.animate-gradient {
+  animation: color-change 6s infinite;
+}
 
 body {
   margin: 0;

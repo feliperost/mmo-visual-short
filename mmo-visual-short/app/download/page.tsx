@@ -2,6 +2,7 @@ import Sidebar from "../components/sidebar"
 import RightSidebar from "../components/rightSidebar"
 import Link from "next/link"
 import Image from "next/image"
+import { Button } from "@/components/ui/button"
 
 export default function Download() {
     return (
@@ -15,7 +16,10 @@ export default function Download() {
               <h2>Experience an adventure like no other!</h2>
               
               {/* add a broken link here, or some effect */}
-              <Link href={`/`}>CLICK HERE TO DOWNLOAD DEADWELL!</Link>
+              <Button variant="test">
+                <Link href={`/void`}>CLICK HERE TO DOWNLOAD DEADWELL!</Link>
+              </Button>
+              
 
               <p>Text explaining something about the Download/Installation. Research on 00s download pages.</p>
 
