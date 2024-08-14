@@ -8,7 +8,7 @@ export default function Support() {
         <div className="@apply flex w-[1024px] h-[768px] bg-[#2a2a2a] border-2 border-solid border-[#444]">
           <Sidebar/>
             <div className="@apply flex-1 overflow-y-auto p-5"> 
-            <div className="header">
+            <div className="@apply text-center mb-5">
                 <h1>Deadwell Support</h1>
             </div>
 

@@ -9,6 +9,9 @@ export default function About() {
         <div className="@apply flex w-[1024px] h-[768px] bg-[#2a2a2a] border-2 border-solid border-[#444]">
           <Sidebar/>
             <div className="@apply flex-1 overflow-y-auto p-5"> 
+              <div className="@apply text-center mb-5">
+                  <h1>About Deadwell</h1>
+              </div>
               <div className="promotional-text">
                 <h2>Discover a world full of adventure in Deadwell!</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>

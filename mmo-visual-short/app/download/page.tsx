@@ -9,6 +9,9 @@ export default function Download() {
         <div className="@apply flex w-[1024px] h-[768px] bg-[#2a2a2a] border-2 border-solid border-[#444]">
           <Sidebar/>
             <div className="@apply flex-1 overflow-y-auto p-5"> 
+            <div className="@apply text-center mb-5">
+                <h1>Download Deadwell</h1>
+            </div>
               <h2>Experience an adventure like no other!</h2>
               
               {/* add a broken link here, or some effect */}

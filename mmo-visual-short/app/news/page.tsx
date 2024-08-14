@@ -9,7 +9,7 @@ export default function About() {
           <Sidebar/>
             <div className="@apply flex-1 overflow-y-auto p-5"> 
 
-            <div className="header">
+            <div className="@apply text-center mb-5">
                 <h1>Dealwell Tribune - Your Daily Newspaper!</h1>
             </div>
 

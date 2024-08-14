@@ -2,6 +2,7 @@ import Sidebar from "./components/sidebar";
 import RightSidebar from "./components/rightSidebar";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
           <div className="news">
             <h2>Latest News</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, illo fuga iste sint perspiciatis asperiores, fugiat nam alias nobis deleniti cum reiciendis nulla ullam ut, exercitationem nisi odio ea maiores.</p>
-            <Link href={`/news`}>Go to the Deadwell Tribune!</Link>
+            <Button>
+              <Link href={`/news`}>Go to the Deadwell Tribune!</Link>
+            </Button>
           </div>
           
           <div className="screenshots">
@@ -31,12 +34,16 @@ export default function Home() {
                 <p>2 or 3 images. short text promoting the game.</p>
                 {/* <Image src="screenshot1.jpg" alt="Screenshot 1"/>
                 <Image src="screenshot2.jpg" alt="Screenshot 2"/> */}
-                <Link href={`/about`}>Read more about Deadwell</Link>
+                <Button>
+                  <Link href={`/about`}>Read more about Deadwell</Link>
+                </Button>
             </div>
             <div className="community-posts">
                 <h2>Highlighted Community Post</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
-                <Link href={`/community`}>Go to the Deadwell Forums!</Link>
+                <Button>
+                  <Link href={`/community`}>Go to the Deadwell Forums!</Link>
+                </Button>
             </div>
           
 
