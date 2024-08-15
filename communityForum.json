@@ -1,0 +1,40 @@
+{
+    "posts": [
+      {
+        "post_id": 1,
+        "post_title": "Post about X! What the hell?",
+        "post_message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.",
+        "post_creator": "Nickname_00",
+        "post_date": "date",
+        "post_comments": {
+            "comment_creator": "John Doe",
+            "comment_message": "Lorem ipsum",
+            "comment_date": "date"
+        }
+    },
+    {
+        "post_id": 2,
+        "post_title": "Post about X! What the hell?",
+        "post_message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.",
+        "post_creator": "aaaaaaAAAAA",
+        "post_date": "date",
+        "post_comments": {
+            "comment_creator": "John Doe",
+            "comment_message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat.",
+            "comment_date": "date"
+        }
+    },
+    {
+        "post_id": 3,
+        "post_title": "Post about X! What the hell?",
+        "post_message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.",
+        "post_creator": "knight auheHUSEFHU",
+        "post_date": "date",
+        "post_comments": {
+            "comment_creator": "John Doe",
+            "comment_message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. ",
+            "comment_date": "date"
+        }
+    }
+    ]
+}

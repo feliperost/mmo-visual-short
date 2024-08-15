@@ -14,7 +14,8 @@ export default function Community() {
                   {/* <div id="timer">Next effect in: 120s</div> */}
               </div>
 
-{/* later, here we will apply a logic to pull posts from an simulated api - a json file */}
+{/* later, here we will apply a logic to pull posts from our simulated api, communityForum.json*/}
+{/* read this to see if we can make this way: https://dev.to/vcpablo/js-mocking-a-rest-api-with-json-server-368 */}
               <div className="@apply mb-5">
                   <h2>Highlighted Community Post</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
@@ -23,6 +24,22 @@ export default function Community() {
               <div className="@apply mb-5">
                   <h2>Highlighted Community Post 2</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
+              </div>
+              <div className="@apply mb-5">
+                  <h2>Highlighted Community Post 3</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
+              </div>
+              <div className="@apply mb-5">
+                  <h2>Highlighted Community Post 4</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
+              </div>
+              <div className="@apply mb-5">
+                  <h2>Highlighted Community Post 5</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
+              </div>
+              <div className="@apply mb-5">
+                  <h2>Highlighted Community Post 6</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p>
               </div>
 
               <p>And, at the end:</p>
