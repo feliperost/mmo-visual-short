@@ -2,7 +2,7 @@ import Sidebar from "../components/sidebar"
 import RightSidebar from "../components/rightSidebar"
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
-import ForumPostList from "../components/forumPostList"
+import ForumPostList from "../components/ForumPostList"
 
 
 
@@ -21,7 +21,7 @@ export default function Community() {
 
               <p>And, at the end:</p>
               <Button>
-                <Link href="/forum">Load more posts</Link>
+                <Link href="/forum">Go to the Deadwell Forum!</Link>
               </Button>
           </div>
         <RightSidebar/>

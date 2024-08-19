@@ -2,7 +2,7 @@
     "posts": [
       {
         "post_id": 1,
-        "post_title": "Post 1 about X! What the hell?",
+        "post_title": "Post 1 about X! Waaa?",
         "post_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.",
         "post_creator": "Nickname_00",
         "post_date": "2005-04-13",
@@ -10,20 +10,20 @@
             {
             "comment_id": 1,
             "comment_creator": "John Doe",
-            "comment_body": "Lorem ipsum Lorem ipsum",
+            "comment_body": "comment 1 on post 1 Lorem ipsum Lorem ipsum",
             "comment_date": "2024-04-13"
         },
         {
             "comment_id": 2,
             "comment_creator": "John Doe",
-            "comment_body": "Lorem ipsum Lorem ipsum",
+            "comment_body": "comment 2 on post 1 Lorem ipsum Lorem ipsum",
             "comment_date": "2024-04-13"
         }
         ]
     },
     {
         "post_id": 2,
-        "post_title": "Post 2. About X! What the hell?",
+        "post_title": "Post 2. About X! AAAaaAa",
         "post_body": "Post 2 message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit.",
         "post_creator": "aaaaaaAAAAA",
         "post_date": "2004-09-26",
@@ -31,13 +31,13 @@
             {
             "comment_id": 1,
             "comment_creator": "Fulano",
-            "comment_body": "Comment on post 2. Lorem ipsummmLorem ipsum",
+            "comment_body": "Comment 1 on post 2. Lorem ipsummmLorem ipsum",
             "comment_date": "2004-08-13"
         },
         {
             "comment_id": 2,
             "comment_creator": "John Doe",
-            "comment_body": "Lorem ipsum Lorem ipsum",
+            "comment_body": "Comment 2 on post 2.Lorem ipsum Lorem ipsum",
             "comment_date": "2024-04-13"
         }
         ]
