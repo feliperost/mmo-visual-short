@@ -1,6 +1,7 @@
 import Sidebar from "../components/sidebar"
 import RightSidebar from "../components/rightSidebar"
 import Link from "next/link"
+import NewsList from "../components/NewsList"
 
 export default function About() {
     return (
@@ -14,11 +15,12 @@ export default function About() {
             </div>
 
             <div className="community-posts">
-                <h2>Title of the article</h2>
+                <NewsList/>
+                {/* <h2>Title of the article</h2>
                 <p>by John Journalist - July 21st 2005</p>
                 <p>Summary of this post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat.</p> 
                   <Link href="/">Read in full</Link>
-                <p>format around 5 articles.</p>
+                <p>format around 5 articles.</p> */}
             </div>
 
             <p>And, at the end:</p>

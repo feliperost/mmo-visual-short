@@ -9,13 +9,13 @@
         "post_comments": [
             {
             "comment_id": 1,
-            "comment_creator": "John Doe",
+            "comment_creator": "John Doe comment 1 post 1",
             "comment_body": "comment 1 on post 1 Lorem ipsum Lorem ipsum",
             "comment_date": "2024-04-13"
         },
         {
             "comment_id": 2,
-            "comment_creator": "John Doe",
+            "comment_creator": "John comment 2 post 1",
             "comment_body": "comment 2 on post 1 Lorem ipsum Lorem ipsum",
             "comment_date": "2024-04-13"
         }

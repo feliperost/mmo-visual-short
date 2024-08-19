@@ -1,7 +1,6 @@
 "use client"; 
 
 import { useState, useEffect } from 'react';
-import { FC } from 'react';
 
 // defining what a post and a comment are
 interface Comment {
@@ -20,23 +19,25 @@ interface Post {
   post_comments: Comment[];
 };
 
-// Aqui, PostsData representa um objeto que tem uma propriedade posts, a qual é um array de Post. Portanto, PostsData é a tipagem para o objeto JSON inteiro.
+// Aqui, PostsData representa um objeto que tem uma propriedade posts, a qual é um array de Post. Portanto, PostsData é a tipagem para o objeto JSON inteiro que receberemos.
 interface PostsData {
   posts: Post[];
 };
 
 // simulating an API with the data, and making sure the JSON file follows the Post type to render it below
-const ForumPostList: FC = () => {
+// first it calls the useState hook, which allows the component to maintain and manage internal state. "posts" is the current state value (started as an empty array []). "setPosts" is the function used to update it with our data.
+const ForumPostList = () => {
   const [posts, setPosts] = useState<Post[]>([]);
 
   useEffect(() => {
-      const fetchPosts = async () => {
-          const response = await fetch('data/communityForum.json');
-          const data: PostsData = await response.json(); // Aqui garantimos que o JSON corresponde à interface PostsData
-          setPosts(data.posts); // Agora podemos acessar 'posts' sabendo que é um array de Post
-      };
+    // using the useEffect hook to define the fetchPosts function, and then calling it.
+    const fetchPosts = async () => {
+      const response = await fetch('data/communityForum.json');
+      const data: PostsData = await response.json(); // Aqui garantimos que o JSON retornado corresponde à interface PostsData. estamos dizendo que data será tipada como PostsData.
+      setPosts(data.posts); // Agora podemos acessar 'posts' sabendo que é um array de Post
+    };
 
-      fetchPosts();
+    fetchPosts();
   }, []);
 
   return (

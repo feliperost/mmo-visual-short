@@ -4,8 +4,6 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import ForumPostList from "../components/ForumPostList"
 
-
-
 export default function Community() {
   return (
     <>
@@ -15,10 +13,7 @@ export default function Community() {
               <div className="@apply text-center mb-5">
                   <h1>Deadwell Community Forum</h1>
               </div>
-              {/* later, here we will apply a logic to pull posts from our simulated api, communityForum.json*/}
-              {/* read this to see if we can make this way: https://dev.to/vcpablo/js-mocking-a-rest-api-with-json-server-368 */}
-              <ForumPostList/>
-
+                <ForumPostList/>
               <p>And, at the end:</p>
               <Button>
                 <Link href="/forum">Go to the Deadwell Forum!</Link>

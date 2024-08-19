@@ -1,0 +1,28 @@
+{
+    "news": [
+      {
+        "news_id": 1,
+        "news_title": "Deadwell Blablablabla! Lorem",
+        "news_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "news_creator": "Name Surname",
+        "news_date": "2005-04-13",
+        "news_link": "void"
+    },
+    {
+        "news_id": 2,
+        "news_title": "Exciting news about our new feature!",
+        "news_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "news_creator": "Deadwell Development Team",
+        "news_date": "2005-02-25",
+        "news_link": ""
+    },
+    {
+        "news_id": 3,
+        "news_title": "Maintenance shutdown scheduled for April 21st",
+        "news_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "news_creator": "Deadwell Team",
+        "news_date": "2005-02-25",
+        "news_link": "void"
+    }
+    ]
+}
