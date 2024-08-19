@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { FC } from 'react';
-import postsData from '../data/communityForum.json'
 
 // defining what a post and a comment are
 interface Comment {
@@ -26,13 +25,19 @@ interface PostsData {
   posts: Post[];
 };
 
-// old solution below, currently working on a more sophisticated way to simulate the json api
-// const ForumPostList: FC = () => {
-//   const { posts }: PostsData = postsData; 
-
-// making sure the JSON file follows the Post type and rendering it below
+// simulating an API with the data, and making sure the JSON file follows the Post type to render it below
 const ForumPostList: FC = () => {
-  const { posts }: PostsData = postsData; 
+  const [posts, setPosts] = useState<Post[]>([]);
+
+  useEffect(() => {
+      const fetchPosts = async () => {
+          const response = await fetch('data/communityForum.json');
+          const data: PostsData = await response.json(); // Aqui garantimos que o JSON corresponde à interface PostsData
+          setPosts(data.posts); // Agora podemos acessar 'posts' sabendo que é um array de Post
+      };
+
+      fetchPosts();
+  }, []);
 
   return (
   <>
