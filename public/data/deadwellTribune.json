@@ -3,7 +3,7 @@
       {
         "news_id": 1,
         "news_title": "Deadwell Blablablabla! Lorem",
-        "news_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "news_body": "In Deadwell, lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "news_creator": "Name Surname",
         "news_date": "2005-04-13",
         "news_link": "void"
@@ -11,7 +11,7 @@
     {
         "news_id": 2,
         "news_title": "Exciting news about our new feature!",
-        "news_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "news_body": "Testing the new style here, we will have to see how it works! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, metus nec tincidunt placerat, risus arcu sollicitudin urna, nec pretium nisl nulla ac erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "news_creator": "Deadwell Development Team",
         "news_date": "2005-02-25",
         "news_link": ""
