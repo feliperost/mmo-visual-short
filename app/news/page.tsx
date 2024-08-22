@@ -16,6 +16,7 @@ export default function About() {
             </div>
 
             <div className="community-posts">
+                <p>put a hint to the login/password in the starting letters \/</p>
                 <NewsList/>
                 {/* <h2>Title of the article</h2>
                 <p>by John Journalist - July 21st 2005</p>
