@@ -18,7 +18,8 @@ export default function About() {
                 <p>Lore content for the game</p>
               </div>
 
-              <Link href="/download">CLICK HERE TO DOWNLOAD!</Link>
+              <h2>Interested in living the adventure of your lifetime?</h2>
+              <Link href="/download">Click here to go to the Download Page</Link>
 
               <div className="screenshots">
                 <h2>Lore Screenshots</h2>

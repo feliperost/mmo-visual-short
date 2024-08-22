@@ -1,5 +1,7 @@
 import Sidebar from "../components/sidebar"
 import RightSidebar from "../components/rightSidebar"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 
 export default function Support() {
@@ -20,7 +22,9 @@ export default function Support() {
                     Account name: <input type="text"/>
                     E-mail: <input type="email" name="" id=""/>
                     Your message: <input type="textarea" name="" id=""/>
-                    <a href="/pages/forum.html"><button>Submit</button></a>
+                    <Button variant="secondary">
+                      <Link href={`/void`}>Submit</Link>
+                    </Button>
                 </div>
 
             </div>

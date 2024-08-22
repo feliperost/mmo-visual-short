@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      cursor: {
+        default: 'url(/cursor/cursor_default.cur), default',
+        pointer: 'url(/cursor/cursor_select.cur), pointer',
+      },
       fontFamily: {
         PlayfairDisplay: ['Playfair Display', 'serif'],
        },
