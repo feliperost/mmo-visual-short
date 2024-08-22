@@ -2,6 +2,7 @@ import Sidebar from "../components/sidebar"
 import RightSidebar from "../components/rightSidebar"
 import Link from "next/link"
 import NewsList from "../components/NewsList"
+import { Button } from "@/components/ui/button"
 
 export default function About() {
     return (
@@ -24,7 +25,9 @@ export default function About() {
             </div>
 
             <p>And, at the end:</p>
-            <Link href="/forum">Load more news</Link>
+            <Button variant="test">
+            <Link href="/forum">Deadwell Tribune News Archive</Link>
+            </Button>
 
             </div>
           <RightSidebar/>

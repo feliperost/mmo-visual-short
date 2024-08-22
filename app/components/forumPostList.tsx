@@ -1,6 +1,7 @@
 "use client"; 
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 // defining what a post and a comment are
 interface Comment {
@@ -50,13 +51,21 @@ const ForumPostList = () => {
           <p className="text-sm text-gray-500 mt-1">Submitted by: {post.post_creator} on {post.post_date}</p>
 
           <div className="mt-4">
-            <h3 className="text-xl font-semibold">Comments</h3>
+            <h3 className="text-xl font-semibold">Latest comments:</h3>
             {post.post_comments.map((comment) => (
               <div key={comment.comment_id} className="mt-2 pl-4 border-l border-gray-300">
                 <p className="text-gray-700">{comment.comment_body}</p>
                 <p className="text-sm text-gray-500 mt-1">By {comment.comment_creator} on {comment.comment_date}</p>
               </div>
             ))}
+
+            <div className="w-full relative flex justify-between flex-wrap">
+              <p className="text-lg m-2 group relative w-max">
+              <Link className="" href="/forum">Read full post</Link>
+              <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-stone-500 group-hover:w-full"></span>
+              </p>
+            </div>
+            
           </div>
         </div>
       ))}
