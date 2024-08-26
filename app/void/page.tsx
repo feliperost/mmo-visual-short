@@ -21,7 +21,7 @@ export default function Void() {
 
   return (
     <div
-      className="animate-gradient mx-auto transition-all duration-100"
+      className="cursor-void animate-gradient mx-auto transition-all duration-100"
       style={{
         width: `${size}px`,
         height: `${size}px`,
