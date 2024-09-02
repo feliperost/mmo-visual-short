@@ -41,7 +41,7 @@ export default function Sidebar() {
             <ul className='@apply list-none w-full p-0'>
                 {sidebarItems.map((item, index)=>(
                     <li className='@apply mx-0 my-2.5' key={index}>
-                        <Link className='@apply text-white no-underline block text-center border bg-[#444] p-[5px] border-solid border-[#555] hover:bg-[#666]' href={item.link}>{item.title}</Link>
+                        <Link className='@apply font-PirataOne text-white no-underline block text-center border bg-[#444] p-[5px] border-solid border-[#555] hover:bg-[#666]' href={item.link}>{item.title}</Link>
                     </li>
                     ))}
             </ul>

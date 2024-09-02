@@ -23,7 +23,10 @@ const config = {
         pointer: 'url(/cursor/cursor_select.cur), pointer',
       },
       fontFamily: {
-        PlayfairDisplay: ['Playfair Display', 'serif'],
+        // Merriweather: ['Merriweather', 'serif'],
+        // PlayfairDisplay: ['Playfair Display', 'serif'],
+        // PirataOne: ['Pirata One', 'serif'],
+        // Ultra: ['Ultra', 'serif'],
        },
       colors: {
         border: "hsl(var(--border))",
