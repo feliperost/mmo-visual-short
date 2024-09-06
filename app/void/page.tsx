@@ -4,7 +4,8 @@ import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function Void() {
-  const [size, setSize] = useState(50);
+  //    tamanho inicial do círculo \/
+  const [size, setSize] = useState(50); 
   const [circlePos, setCirclePos] = useState({ x: 0, y: 0 });
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [hasStartedMoving, setHasStartedMoving] = useState(false); // Nova flag para verificar se o círculo já começou a se mover
@@ -55,7 +56,8 @@ export default function Void() {
 
   useEffect(() => {
     const increaseSize = () => {
-      setSize((prevSize) => prevSize + 1);
+      // velocidade do aumento do círculo \/
+      setSize((prevSize) => prevSize + 2);
     };
 
     const handleScroll = (event: WheelEvent) => {
@@ -92,3 +94,8 @@ export default function Void() {
     />
   );
 }
+
+
+// colocar no background algo como essa imagem: https://i.pinimg.com/originals/05/fb/51/05fb51adde268e0e8687721c10652b9e.gif
+// começar parado
+// quando o usuario move o mouse, o background começa a andar e o circulo a perseguir
