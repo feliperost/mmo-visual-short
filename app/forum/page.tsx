@@ -1,6 +1,7 @@
 import Sidebar from "../components/sidebar"
 import RightSidebar from "../components/rightSidebar"
 import Link from 'next/link';
+import { Button } from "@/components/ui/button";
 
 export default function Community() {
   return (
@@ -14,8 +15,10 @@ export default function Community() {
 
               <div className="@apply mb-5">
                   <h2>Our Community Forum is closed due to a scheduled maintenance. Sorry!</h2>
-
-                  <Link href={`/`}>Return to Homepage</Link>
+                  <Button variant="test">
+                    <Link href={`/`}>Return to Homepage</Link>
+                  </Button>
+                  
               </div>
 
           </div>

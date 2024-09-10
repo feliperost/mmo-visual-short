@@ -35,7 +35,7 @@ const NewsList = () => {
       {news.map((article) => (
         <div key={article.news_id} className="p-4 border-b border-gray-300">
           <h2 className="text-2xl font-bold">{article.news_title}</h2>
-          <p className="font-PlayfairDisplay first-line:uppercase first-line:tracking-widest
+          <p className="merriweather first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-slate-100
   first-letter:mr-3 first-letter:float-left text-justify">{article.news_body}</p>
           <p className="text-sm text-gray-500 mt-1">Submitted by: {article.news_creator} on {article.news_date}</p>
