@@ -20,7 +20,7 @@ interface Post {
   post_comments: Comment[];
 };
 
-// Aqui, PostsData representa um objeto que tem uma propriedade posts, a qual é um array de Post. Portanto, PostsData é a tipagem para o objeto JSON inteiro que receberemos.
+// aqui, PostsData representa um objeto que tem uma propriedade posts, a qual é um array de Post. portanto, PostsData é a tipagem para o objeto JSON inteiro que receberemos.
 interface PostsData {
   posts: Post[];
 };
@@ -45,15 +45,15 @@ const ForumPostList = () => {
   <>
     <div>
       {posts.map((post) => (
-        <div key={post.post_id} className="p-4 border-b border-gray-300">
+        <div key={post.post_id} className="p-4 border-b-2 border-gray-300 bg-slate-500">
           <h2 className="text-2xl font-bold">{post.post_title}</h2>
-          <p className="text-gray-700 mt-2">{post.post_body}</p>
+          <p className="text-gray-200 mt-2">{post.post_body}</p>
           <p className="text-sm text-gray-500 mt-1">Submitted by: {post.post_creator} on {post.post_date}</p>
 
-          <div className="mt-4">
-            <h3 className="text-xl font-semibold">Latest comments:</h3>
+          <div className="mt-4 bg-slate-400">
+            <h3 className="text-xl font-semibold text-gray-700">Latest comments:</h3>
             {post.post_comments.map((comment) => (
-              <div key={comment.comment_id} className="mt-2 pl-4 border-l border-gray-300">
+              <div key={comment.comment_id} className="mt-2 pl-4 border-b border-gray-400">
                 <p className="text-gray-700">{comment.comment_body}</p>
                 <p className="text-sm text-gray-500 mt-1">By {comment.comment_creator} on {comment.comment_date}</p>
               </div>

@@ -6,11 +6,12 @@ import { useRouter } from 'next/navigation';
 export default function Void() {
   //    tamanho inicial do círculo \/
   const [size, setSize] = useState(50); 
-  const [circlePos, setCirclePos] = useState({ x: 0, y: 0 });
+  const [circlePos, setCirclePos] = useState({ x: 0, y: 400 });
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [hasStartedMoving, setHasStartedMoving] = useState(false); // Nova flag para verificar se o círculo já começou a se mover
+  const [hasStartedMoving, setHasStartedMoving] = useState(false); // flag para verificar se o círculo já começou a se mover
   const squareRef = useRef<HTMLDivElement | null>(null);
   const router = useRouter();
+  
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -76,22 +77,32 @@ export default function Void() {
     };
   }, []);
 
+  const hallwayBg = "https://i.pinimg.com/originals/05/fb/51/05fb51adde268e0e8687721c10652b9e.gif"
+
   return (
-    <div
-      ref={squareRef}
-      className="cursor-void animate-gradient mx-auto transition-all duration-100"
-      style={{
-        position: 'absolute',
-        width: `${size}px`,
-        height: `${size}px`,
-        backgroundColor: 'black',
-        borderRadius: '50%',
-        transform: 'translate(-50%, -50%)',
-        // pointerEvents: 'none',
-        top: `${circlePos.y}px`,
-        left: `${circlePos.x}px`,
-      }}
-    />
+    <>
+      <div className='absolute' style={{backgroundImage: `url(${hallwayBg})`}}>
+
+      </div>
+
+        <div
+          ref={squareRef}
+          className="cursor-void animate-gradient mx-auto transition-all duration-100"
+          style={{
+            position: 'absolute',
+            width: `${size}px`,
+            height: `${size}px`,
+            backgroundColor: 'black',
+            borderRadius: '50%',
+            transform: 'translate(-50%, -50%)',
+            // pointerEvents: 'none',
+            top: `${circlePos.y}px`,
+            left: `${circlePos.x}px`,
+            backgroundImage: `url(${hallwayBg})`,
+          }}
+        />
+
+    </>
   );
 }
 

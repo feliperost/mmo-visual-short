@@ -29,3 +29,7 @@ export default function RootLayout({
 }
 
 // to add new fonts to the project, follow this guide: https://medium.com/@dolce-emmy/integrating-multiple-google-fonts-in-a-next-js-14-project-a-step-by-step-guide-ef051f3264e1
+
+// 1- import the font here (layouts.tsx) and create a const 
+// 2- add the variable in globals.css
+// 3- use it in classnames with tailwind
